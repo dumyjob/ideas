@@ -7,3 +7,5 @@
 5. 是在现有的spring基础上拓展还是自定义一套逻辑
 6. 需要考虑对应的bean & method被代理如何处理? 是否需要处理？
 7. 目前提供了类似@Listener & @Handler组合? 是否也考虑统一
+
+结论:  目前Spring Cloud Stream提供了解决方案,再重复二次开发意义不大
