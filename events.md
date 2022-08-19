@@ -1,0 +1,23 @@
+1. 研究 ListenerContainerFactory & ListenerContainer 是否能够解决rabbitmq/ kafka 多线程消费
+2. MessageConsumer 继承SimpleMessageListenerContainer 实现多线程消费
+3. MessageConsumer 中copy SimpleMessageListenerContainer实现多线程消费
+4. @StreamListner注解到method和注解到类上的bean解析方案, @StreamListner注解的背后可能有多个bean对应
+	目前的解析, 将@StreamListener的解析内容分离到2个地方去了
+
+5. 是在现有的spring基础上拓展还是自定义一套逻辑
+6. 需要考虑对应的bean & method被代理如何处理? 是否需要处理？
+7. 目前提供了类似@Listener & @Handler组合? 是否也考虑统一
+
+
+
+1. 支付通訊加密
+2. 支付配置
+3. 宝付接入
+4. 对账单
+5. 线下充值支持区域充值
+6. SQL
+
+1. 账户模块,支持冻结
+2. 品牌融合,合并支付
+3. 结算整合
+4. 支付监控
