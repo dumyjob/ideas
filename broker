@@ -1,0 +1,2 @@
+1. RabbitMQ和RocketMQ的多tag支持: RocketMQ是在客户端实现的对多tag支持; RabbitMQ是在broker-server端实现的多tag支持. 
+2. 对于一个消息有多个consumer监听消费, 是如何实现ACK的, 对每个消息标记?? 
